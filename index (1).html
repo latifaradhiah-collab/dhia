@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Tan | Financial Analyst</title>
+  <meta name="description" content="Portfolio of Alex Tan, financial analyst specialising in valuation, forecasting and risk.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&family=Source+Serif+4:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#top">Alex Tan</a>
+  <nav aria-label="Main">
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a class="btn-small" href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>I turn financial data into decisions you can defend.</h1>
+      <p>Financial analyst with six years in valuation, forecasting and risk reporting. I build models that are clear enough to audit and fast enough to use.</p>
+      <div class="actions">
+        <a class="btn" href="#work">View my work</a>
+        <a class="btn btn-ghost" href="resume.pdf">Download CV</a>
+      </div>
+    </div>
+
+    <figure class="chart">
+      <svg viewBox="0 0 520 300" role="img" aria-labelledby="chart-title chart-desc">
+        <title id="chart-title">Sample portfolio growth</title>
+        <desc id="chart-desc">Line chart showing a portfolio indexed to 100 rising to 184 over five years, ahead of a benchmark at 142.</desc>
+        <g class="grid">
+          <line x1="48" y1="40" x2="500" y2="40"/>
+          <line x1="48" y1="100" x2="500" y2="100"/>
+          <line x1="48" y1="160" x2="500" y2="160"/>
+          <line x1="48" y1="220" x2="500" y2="220"/>
+        </g>
+        <g class="axis">
+          <text x="40" y="44" text-anchor="end">180</text>
+          <text x="40" y="104" text-anchor="end">150</text>
+          <text x="40" y="164" text-anchor="end">120</text>
+          <text x="40" y="224" text-anchor="end">100</text>
+          <text x="48" y="248">Y1</text><text x="138" y="248">Y2</text>
+          <text x="228" y="248">Y3</text><text x="318" y="248">Y4</text>
+          <text x="408" y="248">Y5</text>
+        </g>
+        <path class="area" d="M48 220 L120 205 L170 212 L230 170 L290 150 L340 120 L400 96 L450 70 L500 44 L500 220 Z"/>
+        <path class="line bench" d="M48 220 L120 214 L170 216 L230 192 L290 184 L340 168 L400 156 L450 142 L500 132"/>
+        <path class="line main" d="M48 220 L120 205 L170 212 L230 170 L290 150 L340 120 L400 96 L450 70 L500 44"/>
+        <circle class="dot" cx="500" cy="44" r="5"/>
+        <text class="label main-label" x="492" y="30" text-anchor="end">Portfolio 184</text>
+        <text class="label bench-label" x="492" y="124" text-anchor="end">Benchmark 142</text>
+      </svg>
+      <figcaption>Sample chart. Replace with your own results, indexed to 100.</figcaption>
+    </figure>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section">
+    <h2>Selected work</h2>
+    <ul class="work-list">
+      <li>
+        <div>
+          <h3>DCF valuation of a mid-cap retailer</h3>
+          <p>Built a three-statement model with scenario analysis. Identified a 14% gap between market price and intrinsic value.</p>
+        </div>
+        <dl><dt>Tools</dt><dd>Excel, Python</dd></dl>
+        <a href="#" class="link">Read case study</a>
+      </li>
+      <li>
+        <div>
+          <h3>Quarterly cash flow forecasting</h3>
+          <p>Replaced a manual process with a rolling forecast. Cut forecast error from 11% to 4%.</p>
+        </div>
+        <dl><dt>Tools</dt><dd>Power BI, SQL</dd></dl>
+        <a href="#" class="link">Read case study</a>
+      </li>
+      <li>
+        <div>
+          <h3>Portfolio risk dashboard</h3>
+          <p>Designed a dashboard tracking volatility, drawdown and sector exposure for a 40-holding fund.</p>
+        </div>
+        <dl><dt>Tools</dt><dd>Tableau, Python</dd></dl>
+        <a href="#" class="link">Read case study</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section tinted">
+    <div class="inner">
+      <h2>Skills and credentials</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Analysis</h3>
+          <p>Financial modelling, DCF and comparables, budgeting, variance analysis, risk assessment.</p>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <p>Advanced Excel, Python (pandas), SQL, Power BI, Tableau, Bloomberg Terminal.</p>
+        </div>
+        <div>
+          <h3>Credentials</h3>
+          <p>CFA Level II candidate. BSc Finance, First Class Honours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <span class="when">2023 to now</span>
+        <div>
+          <h3>Senior Financial Analyst, Northbridge Capital</h3>
+          <p>Lead valuation and reporting for a RM 400m portfolio.</p>
+        </div>
+      </li>
+      <li>
+        <span class="when">2020 to 2023</span>
+        <div>
+          <h3>Financial Analyst, Meridian Bank</h3>
+          <p>Built credit risk models and monthly management reports.</p>
+        </div>
+      </li>
+      <li>
+        <span class="when">2018 to 2020</span>
+        <div>
+          <h3>Audit Associate, Hartley &amp; Co</h3>
+          <p>Audited listed and private clients across three sectors.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="inner">
+      <h2>Let's talk numbers</h2>
+      <p>Open to analyst and advisory roles, and freelance modelling projects.</p>
+      <a class="btn btn-light" href="mailto:hello@example.com">hello@example.com</a>
+      <p class="social"><a href="#">LinkedIn</a> <a href="#">GitHub</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Alex Tan</p>
+</footer>
+
+</body>
+</html>
